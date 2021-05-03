@@ -14,6 +14,16 @@ pool:
   vmImage: "ubuntu-20.04"
 
 variables:
+  ACR_NAME: onderiiotcr
+  ACR_PASSWORD: GB2eg01KpmLGquQ+H9KsDVs5fibS85Rp
+  ACR_RESOURCE_GROUP: iotedge4iiot-RG-Hub
+  ACR_USERNAME: onderiiotcr
+  AZURE_SERVICE_CONNECTION: azureServiceConnection
+  AZURE_SUBSCRIPTION_ID: 227b49ad-8f51-4c95-a038-4a7fa6bbb938
+  GRAFANA_ADMIN_PASSWORD: admin
+  IIOT_ASSETS_RG: iotedge4iiot-RG-iiot-assets
+  IOT_HUB_NAME: iiothub1
+  SQLEDGE_ADMIN_PASSWORD: Password_54321
   DEPLOYMENT_TARGET_CONDITION_FOR_DASHBOARD: tags.dashboardNode=true
   DEPLOYMENT_TARGET_CONDITION_FOR_PUBLISHER: tags.publisherNode=true 
   BUILD_PLATFORM: amd64
